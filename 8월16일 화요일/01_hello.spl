@@ -1,0 +1,8 @@
+CREATE TABLE classmates (
+  id INTEGER PRIMARY KEY,
+  name TEXT
+);
+
+.TABLE
+.schema classmates
+INSERT INTO classmates VALUES
