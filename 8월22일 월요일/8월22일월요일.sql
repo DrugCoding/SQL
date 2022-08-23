@@ -39,11 +39,12 @@ SELECT InvoiceId, CustomerId
 FROM invoices
 ORDER BY InvoiceId ASC
 LIMIT 5;
---10
+--10. 각 invoices_item에 해당하는 invoice 데이터를 함께 출력하세요.
+-- 왜 ORDER BY에 B인가요? A로 했을 때 출력값이 더 예쁜데!
 SELECT A.InvoiceLineId, B.InvoiceId
 FROM invoice_items A JOIN invoices B
   ON A.InvoiceId = B.InvoiceId
-ORDER BY A.InvoiceId DESC
+ORDER BY B.InvoiceId DESC
 LIMIT 5;
 --11
 SELECT A.InvoiceId, B.CustomerId

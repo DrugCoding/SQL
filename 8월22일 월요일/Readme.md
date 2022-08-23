@@ -111,6 +111,7 @@ InvoiceId  CustomerId
 
 ### 10. 각 invoices_item에 해당하는 invoice 데이터를 함께 출력하세요.
 | 단, InvoiceLineId, InvoiceId 컬럼을 `InvoiceId` 기준으로 내림차순으로 5개만 출력하세요.
+
 ```
 InvoiceLineId  InvoiceId
 -------------  ---------
@@ -124,6 +125,7 @@ InvoiceLineId  InvoiceId
 
 ### 11. 각 invoice에 해당하는 customer 데이터를 함께 출력하세요.
 | 단, InvoiceId, CustomerId 컬럼을 `InvoiceId` 기준으로 내림차순으로 5개만 출력하세요.
+
 ```
 InvoiceId  CustomerId
 ---------  ----------
