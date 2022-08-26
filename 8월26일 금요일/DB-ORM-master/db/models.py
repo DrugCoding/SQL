@@ -16,11 +16,3 @@ class Movie(models.Model):
     opening_date = models.DateField()
     running_time = models.IntegerField()
     screening = models.BooleanField()
-
-#4
-# hs = Director.objects.get(name = '봉준호')
-# print(hs.id)
-# print(hs.name)
-# print(hs.debut)
-# print(hs.country)
-
